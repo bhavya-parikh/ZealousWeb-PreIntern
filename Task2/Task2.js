@@ -16,7 +16,7 @@ function validateForm() {
 
   let isValid = true;
 
-  if (!nameInput.value) {
+  if (!nameInput.value.trim()) {
     nameErrorMsg.innerText = "Please enter your name.";
     isValid = false;
   }

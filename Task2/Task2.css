@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#submitBtn {
+  margin-top: 10px;
+}
+
+.errorMsg {
+  color: red;
+}

@@ -1,0 +1,16 @@
+.btnContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 15px;
+  margin: 15px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+}
+body {
+  background-color: cornsilk;
+}

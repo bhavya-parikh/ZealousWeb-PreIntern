@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="Task3.css">
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+    <div class="task-inputs">
+        <input type="text" id="taskInput" placeholder="Enter your task" maxlength="15" required>
+        <input type="date" id="dueDateInput" required>
+        <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+        <div id="errorMsg" class="error"></div>
+    </div>
+    <ul id="taskList"></ul>
+
+    <script src="Task3.js"></script>
+</body>
+
+</html>

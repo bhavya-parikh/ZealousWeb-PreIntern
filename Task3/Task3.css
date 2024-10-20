@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.task-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+}
+
+.task-item.overdue {
+  color: red;
+}
+
+button.complete-btn,
+button.delete-btn {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+button.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+button.complete-btn {
+  background-color: green;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
